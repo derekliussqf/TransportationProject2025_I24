@@ -2,7 +2,7 @@
 
 Collaboration Space & Weekly Report for Zack and Derek
 
-Week 3  Feb.7 - Feb.13 (Count startde from first meeting)
+Week 3  Feb.7 - Feb.13 (Count startde from first meeting) \n
 Review & conclude important transportation related knowledges and models.
 Take first look at the dataset.
 

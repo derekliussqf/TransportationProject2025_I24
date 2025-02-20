@@ -1,6 +1,6 @@
 # TransportationProject2025_I24
 
-Collaboration Space & Weekly Report for Zack and Derek
+Collaboration Space & Weekly Report for Zach and Derek
 
 Week 3  Feb.7 - Feb.13 (Count startde from first meeting) 
 

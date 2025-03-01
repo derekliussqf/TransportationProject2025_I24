@@ -23,3 +23,7 @@ Figure how to configure format
 Read Paper to understand further goal of the project
 
 Next : fit fundamental diagram -> fit novel model
+
+Week 6 Feb.28 - Mar.7
+Do this
+![image](https://github.com/user-attachments/assets/6298089d-0271-4cf2-a6b6-90d078cf2dc4)

@@ -27,3 +27,6 @@ Next : fit fundamental diagram -> fit novel model
 Week 6 Feb.28 - Mar.7
 Do this
 ![image](https://github.com/user-attachments/assets/6298089d-0271-4cf2-a6b6-90d078cf2dc4)
+
+Week 7 Mar.8 - Mar.14
+Wait for Qi to look at the graph & make it looks better & prepare for application(fitting other models)

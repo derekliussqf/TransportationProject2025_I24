@@ -132,7 +132,7 @@ def calculate_density(data, x_start, x_end, target_time):
 
 
 ## avg speed
-
+'''
 vehicle_avg_dict = {f"{data.iloc[i]._id} mean_velocity": avgspeed(data.iloc[i]) for i in range(len(data))}
 #vehicle_seg_dict = {f"{data.iloc[i]._id} segment_velocity": v_per_section(data.iloc[i]) for i in range(len(data))}
 avg_speed = sum(vehicle_avg_dict.values()) / len(vehicle_avg_dict)
@@ -176,7 +176,6 @@ flow_list = []
 for i in range(len(time_targets)):
    for item in segmented_space_list:
     density_list.append(calculate_density(data, item[0], item[1], time_targets[i]))
-
 # start_time = time.time()
 #
 with open("density.json", "w") as file:
@@ -195,7 +194,7 @@ for i in range(len(space_targets)):
 with open("flow.json", "w") as file:
     json.dump(flow_list, file)
 
-'''
+
 ###reload data
 with open('density.json', 'r', encoding='utf-8') as file:
 
@@ -204,7 +203,7 @@ with open('flow.json', 'r', encoding='utf-8') as file:
 
     flow_list =  json.load(file)
 ###
-'''
+
 
 
 ## data pre process for graphing 
@@ -221,8 +220,6 @@ for i in range(len(density_list)):
 
 for i in range(len(flow_list)):
   f_l[math.floor(i/len(space_targets))].append(flow_list[i])
-
-
 
 #### actual draw 
 
@@ -259,4 +256,24 @@ fig.colorbar(c, ax=ax2)
 plt.tight_layout()
 
 
+plt.show()
+'''
+#want to make a plot of density vs avg velocity
+
+def generateData(data, x_start, x_end, time_start, time_end):
+    totaldata = []
+    time = time_start
+    increment = (time_end - time_start) / 10000
+    while time < time_end:
+        dens = calculate_density(data, x_start, x_end, time)
+        flow = calculate_flow(data, (x_start+x_end)/2, time - increment * 10, time + increment * 10)
+        totaldata.append([time,dens,flow])
+        time += increment
+    return totaldata
+
+totData = generateData(data, 316136.9561793628, 316284.41535980365, 1669118400,1669148400)
+
+plt.scatter(totData[:,1], totData[:,2])
+plt.xlabel("Density")
+plt.ylabel("Flow")
 plt.show()

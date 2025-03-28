@@ -31,9 +31,12 @@ Do this
 Week 7 Mar.8 - Mar.14
 Wait for Qi to look at the graph & make it looks better & prepare for application(fitting other models)
 
-Week 8 Mar.15 - Mar.21
+Week 8 & 9 Mar.15 - Mar.27
 irregular :  vehicle stops : straight horizontal line
 only on the road for a short time : short lines
 
 roughly estimate the ramp, plot for that region 
+
+Week 10 Mar.28 - Apr.3
+Try to figure out how to clean the data and x vs. y at exit.
  

@@ -39,4 +39,10 @@ roughly estimate the ramp, plot for that region
 
 Week 10 Mar.28 - Apr.3
 Try to figure out how to clean the data and x vs. y at exit.
+
+Week 11 Apr.4 - Apr.11
+-Go over whole highway and check how many cars are passing over the center datapoint
+-Clean data of not moving cars and cars that pass over centerline
+-Segment the highway, calc avg. velocity & vehicle count for each direction 
+-For each time interval, calc the ratio of vehicle goes out  vs. total vehicle , for each exit.
  

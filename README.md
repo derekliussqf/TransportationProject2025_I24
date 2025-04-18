@@ -48,4 +48,8 @@ Week 11 Apr.4 - Apr.11
 -Segment the highway, calc avg. velocity & vehicle count for each direction for each 5 seconds
 
 -For each time interval, calc the ratio of vehicle goes out  vs. total vehicle , for each exit.
- 
+
+Week 12 Apr.12 - Apr.18
+
+Week 13 Apr.19 - Apr.25
+-visualize by plot the in and out vehicles in different colors, wait for qi's code

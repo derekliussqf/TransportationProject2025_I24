@@ -43,9 +43,13 @@ Try to figure out how to clean the data and x vs. y at exit.
 Week 11 Apr.4 - Apr.11
 -Go over whole highway and check how many cars are passing over the center datapoint
 
--Clean data of not moving cars and cars that pass over centerline
+-Clean data of not moving cars and cars that pass over centerline / normalize data by dividing by mean value (y_pos)
 
 -Segment the highway, calc avg. velocity & vehicle count for each direction for each 5 seconds
 
 -For each time interval, calc the ratio of vehicle goes out  vs. total vehicle , for each exit.
- 
+
+Week 12 Apr.12 - Apr.18
+
+Week 13 Apr.19 - Apr.25
+-visualize by plot the in and out vehicles in different colors, wait for qi's code
